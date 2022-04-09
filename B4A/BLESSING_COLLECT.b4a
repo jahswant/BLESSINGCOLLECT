@@ -1,0 +1,149 @@
+﻿Build1=Default,cm.jahswant.foodhunter
+File1=1.jpg
+File10=forget_pass.png
+File11=hysacam_db.db
+File12=hysacam_logo_blanc.png
+File13=logout.png
+File14=mtnmomo.png
+File15=nearbyplaces.bal
+File16=paynow.bal
+File17=phone_call.png
+File18=searching.png
+File19=searchingplace.png
+File2=aboutlayout.bal
+File20=selecttrajet.bal
+File21=splash.bal
+File22=userdash.bal
+File23=warningimage.png
+File24=welcome.bal
+File3=action_bar.bal
+File4=BLESSING LOGO FINAL.png
+File5=blessing_db.db
+File6=blessing_logo_blanc.png
+File7=choosetrajet.bal
+File8=daysitem.bal
+File9=errorimage.png
+FileGroup1=Default Group
+FileGroup10=Default Group
+FileGroup11=Default Group
+FileGroup12=Default Group
+FileGroup13=Default Group
+FileGroup14=Default Group
+FileGroup15=Default Group
+FileGroup16=Default Group
+FileGroup17=Default Group
+FileGroup18=Default Group
+FileGroup19=Default Group
+FileGroup2=Default Group
+FileGroup20=Default Group
+FileGroup21=Default Group
+FileGroup22=Default Group
+FileGroup23=Default Group
+FileGroup24=Default Group
+FileGroup3=Default Group
+FileGroup4=Default Group
+FileGroup5=Default Group
+FileGroup6=Default Group
+FileGroup7=Default Group
+FileGroup8=Default Group
+FileGroup9=Default Group
+Group=Default Group
+Library1=appcompat
+Library10=randomaccessfile
+Library11=runtimepermissions
+Library12=sd_textview
+Library13=sql
+Library14=wobblemenu
+Library15=xcustomlistview
+Library16=xui
+Library17=xui views
+Library18=b4xencryption
+Library2=b4xpages
+Library3=bctoast
+Library4=byteconverter
+Library5=core
+Library6=encryption
+Library7=googlemaps
+Library8=ime
+Library9=metroui_textview
+ManifestCode='This code will be applied to the manifest file during compilation.~\n~'You do not need to modify it in most cases.~\n~'See this link for for more information: https://www.b4x.com/forum/showthread.php?p=78136~\n~AddManifestText(~\n~<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="30"/>~\n~<supports-screens android:largeScreens="true" ~\n~    android:normalScreens="true" ~\n~    android:smallScreens="true" ~\n~    android:anyDensity="true"/>)~\n~SetApplicationAttribute(android:icon, "@drawable/icon")~\n~SetApplicationAttribute(android:label, "$LABEL$")~\n~CreateResourceFromFile(Macro, Themes.LightTheme)~\n~'End of default text.~\n~~\n~SetActivityAttribute(Main,android:theme, "@style/DefaultTheme")~\n~SetActivityAttribute(main, android:windowSoftInputMode, adjustResize|stateHidden)~\n~~\n~~\n~CreateResource(xml, provider_paths,~\n~   <files-path name="name" path="shared" />~\n~)~\n~~\n~CreateResourceFromFile(Macro, FirebaseAnalytics.GooglePlayBase)~\n~AddApplicationText(~\n~<uses-library~\n~      android:name="org.apache.http.legacy"~\n~      android:required="false" />~\n~~\n~<meta-data~\n~  android:name="com.google.android.geo.API_KEY"~\n~  android:value="AIzaSyCGJLKyMenjFxU00YxwZ4hqkeZSFDXEtw0"/>~\n~)~\n~~\n~ CreateResourceFromFile(Macro, Core.NetworkClearText)~\n~~\n~~\n~CreateResource(values, theme.xml,~\n~<?xml version="1.0" encoding="utf-8"?>~\n~<resources>~\n~  <style~\n~  name="DefaultTheme"~\n~  parent="Theme.AppCompat.Light.DarkActionBar">~\n~~\n~    <!--Dark Purple~\n~    <item name="colorPrimary">#9c24b5</item>~\n~    <item name="colorPrimaryDark">#7b1ca5</item>~\n~    <item name="colorAccent">#cd5bff</item>~\n~	<item name="android:navigationBarColor">#9c24b5</item>-->~\n~~\n~    <!--Bright Purple~\n~    <item name="colorPrimary">#9c28b1</item>~\n~    <item name="colorPrimaryDark">#791ea1</item>~\n~    <item name="colorAccent">#d510f9</item>~\n~	<item name="android:navigationBarColor">#9c28b1</item>-->~\n~~\n~    <!--Light Blue 1~\n~    <item name="colorPrimary">#FF9800</item>~\n~    <item name="colorPrimaryDark">#F57C00</item>~\n~    <item name="colorAccent">#FFA726</item>~\n~	<item name="android:navigationBarColor">#FF9800</item>-->~\n~~\n~    <!--Light Blue 2~\n~    <item name="colorPrimary">#00aaf7</item>~\n~    <item name="colorPrimaryDark">#008ad6</item>~\n~    <item name="colorAccent">#62ceff</item>~\n~	<item name="android:navigationBarColor">#00aaf7</item>-->~\n~~\n~    <!--Light Blue 3~\n~    <item name="colorPrimary">#00BCD4</item>~\n~    <item name="colorPrimaryDark">#0097A7</item>~\n~    <item name="colorAccent">#00BCD4</item>~\n~	<item name="android:navigationBarColor">#00BCD4</item>-->~\n~~\n~    <!--Light Blue 4~\n~    <item name="colorPrimary">#03a9f4</item>~\n~    <item name="colorPrimaryDark">#0288d1</item>~\n~    <item name="colorAccent">#83d8ff</item>~\n~	<item name="android:navigationBarColor">#03a9f4</item>-->~\n~~\n~    <!--Dark Blue~\n~    <item name="colorPrimary">#3f51b5</item>~\n~    <item name="colorPrimaryDark">#324191</item>~\n~    <item name="colorAccent">#3957ff</item>~\n~	<item name="android:navigationBarColor">#3f51b5</item>-->~\n~~\n~    <!--Dark Green~\n~    <item name="colorPrimary">#25dc29</item>~\n~    <item name="colorPrimaryDark">#0fa913</item>~\n~    <item name="colorAccent">#4eff52</item>~\n~	<item name="android:navigationBarColor">#25dc29</item>-->~\n~~\n~    <!--Lime Green~\n~    <item name="colorPrimary">#cedf39</item>~\n~    <item name="colorPrimaryDark">#adb629</item>~\n~    <item name="colorAccent">#ebf96e</item>~\n~	<item name="android:navigationBarColor">#00BCD4</item>-->~\n~~\n~    <!--Red-->~\n~    <item name="colorPrimary">#e50d0d</item>~\n~    <item name="colorPrimaryDark">#cc0000</item>~\n~    <item name="colorAccent">#fe3d3d</item>~\n~	<item name="android:navigationBarColor">#e50d0d</item>~\n~~\n~    <!--Bright Orange~\n~    <item name="colorPrimary">#FF9800</item>~\n~    <item name="colorPrimaryDark">#F57C00</item>~\n~    <item name="colorAccent">#FFA726</item>~\n~	<item name="android:navigationBarColor">#FF9800</item>-->~\n~~\n~    <!--Dark Orange~\n~    <item name="colorPrimary">#f3b60c</item>~\n~    <item name="colorPrimaryDark">#e59900</item>~\n~    <item name="colorAccent">#ffd662</item>~\n~	<item name="android:navigationBarColor">#00BCD4</item>-->~\n~~\n~     <item name="windowNoTitle">true</item>~\n~     <item name="windowActionBar">false</item>~\n~	 <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>~\n~     <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>~\n~  </style>~\n~</resources>~\n~)
+Module1=|relative|..\B4XMainPage
+Module2=Starter
+Module3=|relative|..\UserMenuPage
+Module4=UTILS
+Module5=|relative|..\WelcomePage
+NumberOfFiles=24
+NumberOfLibraries=18
+NumberOfModules=5
+Version=11.5
+@EndOfDesignText@
+#Region  Project Attributes 
+	#ApplicationLabel: BLESSING COLLECT
+	#VersionCode: 20
+	#VersionName: 
+	'SupportedOrientations possible values: unspecified, landscape or portrait.
+	#SupportedOrientations: portrait
+	#CanInstallToExternalStorage: False
+#End Region
+
+#Region  Activity Attributes 
+	#FullScreen: False
+	#IncludeTitle: True
+	#Extends: android.support.v7.app.AppCompatActivity
+#End Region
+
+'#BridgeLogger: True
+
+Sub Process_Globals
+	Public ActionBarHomeClicked As Boolean
+	Type API_PAY(ORDER_ID As String, PHONE_MOMO As String)
+End Sub
+
+Sub Globals
+
+End Sub
+
+Sub Activity_Create(FirstTime As Boolean)
+	Dim pm As B4XPagesManager
+	pm.Initialize(Activity)
+End Sub
+
+'Template version: B4A-1.01
+#Region Delegates
+
+Sub Activity_ActionBarHomeClick
+	ActionBarHomeClicked = True
+	B4XPages.Delegate.Activity_ActionBarHomeClick
+	ActionBarHomeClicked = False
+End Sub
+
+Sub Activity_KeyPress (KeyCode As Int) As Boolean
+	Return B4XPages.Delegate.Activity_KeyPress(KeyCode)
+End Sub
+
+Sub Activity_Resume
+	B4XPages.Delegate.Activity_Resume
+End Sub
+
+Sub Activity_Pause (UserClosed As Boolean)
+	B4XPages.Delegate.Activity_Pause
+End Sub
+
+Sub Activity_PermissionResult (Permission As String, Result As Boolean)
+	B4XPages.Delegate.Activity_PermissionResult(Permission, Result)
+End Sub
+
+Sub Create_Menu (Menu As Object)
+	B4XPages.Delegate.Create_Menu(Menu)
+End Sub
+
+#if Java
+public boolean _onCreateOptionsMenu(android.view.Menu menu) {
+	 processBA.raiseEvent(null, "create_menu", menu);
+	 return true;
+	
+}
+#End If
+#End Region
+
+'Program code should go into B4XMainPage and other pages.

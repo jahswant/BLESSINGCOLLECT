@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style
+  name="DefaultTheme"
+  parent="Theme.AppCompat.Light.DarkActionBar">
+
+    <!--Dark Purple
+    <item name="colorPrimary">#9c24b5</item>
+    <item name="colorPrimaryDark">#7b1ca5</item>
+    <item name="colorAccent">#cd5bff</item>
+	<item name="android:navigationBarColor">#9c24b5</item>-->
+
+    <!--Bright Purple
+    <item name="colorPrimary">#9c28b1</item>
+    <item name="colorPrimaryDark">#791ea1</item>
+    <item name="colorAccent">#d510f9</item>
+	<item name="android:navigationBarColor">#9c28b1</item>-->
+
+    <!--Light Blue 1
+    <item name="colorPrimary">#FF9800</item>
+    <item name="colorPrimaryDark">#F57C00</item>
+    <item name="colorAccent">#FFA726</item>
+	<item name="android:navigationBarColor">#FF9800</item>-->
+
+    <!--Light Blue 2
+    <item name="colorPrimary">#00aaf7</item>
+    <item name="colorPrimaryDark">#008ad6</item>
+    <item name="colorAccent">#62ceff</item>
+	<item name="android:navigationBarColor">#00aaf7</item>-->
+
+    <!--Light Blue 3
+    <item name="colorPrimary">#00BCD4</item>
+    <item name="colorPrimaryDark">#0097A7</item>
+    <item name="colorAccent">#00BCD4</item>
+	<item name="android:navigationBarColor">#00BCD4</item>-->
+
+    <!--Light Blue 4
+    <item name="colorPrimary">#03a9f4</item>
+    <item name="colorPrimaryDark">#0288d1</item>
+    <item name="colorAccent">#83d8ff</item>
+	<item name="android:navigationBarColor">#03a9f4</item>-->
+
+    <!--Dark Blue
+    <item name="colorPrimary">#3f51b5</item>
+    <item name="colorPrimaryDark">#324191</item>
+    <item name="colorAccent">#3957ff</item>
+	<item name="android:navigationBarColor">#3f51b5</item>-->
+
+    <!--Dark Green
+    <item name="colorPrimary">#25dc29</item>
+    <item name="colorPrimaryDark">#0fa913</item>
+    <item name="colorAccent">#4eff52</item>
+	<item name="android:navigationBarColor">#25dc29</item>-->
+
+    <!--Lime Green
+    <item name="colorPrimary">#cedf39</item>
+    <item name="colorPrimaryDark">#adb629</item>
+    <item name="colorAccent">#ebf96e</item>
+	<item name="android:navigationBarColor">#00BCD4</item>-->
+
+    <!--Red-->
+    <item name="colorPrimary">#e50d0d</item>
+    <item name="colorPrimaryDark">#cc0000</item>
+    <item name="colorAccent">#fe3d3d</item>
+	<item name="android:navigationBarColor">#e50d0d</item>
+
+    <!--Bright Orange
+    <item name="colorPrimary">#FF9800</item>
+    <item name="colorPrimaryDark">#F57C00</item>
+    <item name="colorAccent">#FFA726</item>
+	<item name="android:navigationBarColor">#FF9800</item>-->
+
+    <!--Dark Orange
+    <item name="colorPrimary">#f3b60c</item>
+    <item name="colorPrimaryDark">#e59900</item>
+    <item name="colorAccent">#ffd662</item>
+	<item name="android:navigationBarColor">#00BCD4</item>-->
+
+     <item name="windowNoTitle">true</item>
+     <item name="windowActionBar">false</item>
+	 <item name="android:buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+     <item name="buttonStyle">@style/Widget.AppCompat.Button.Colored</item>
+  </style>
+</resources>
